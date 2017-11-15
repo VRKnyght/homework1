@@ -1,0 +1,56 @@
+* {
+	margin: 5px;
+	text-align: center;
+}
+
+body {
+	background-color: #999
+}
+
+.box {
+	width: 99%;
+	height: 60px;
+	background-color: #eee;
+	color: #999;
+}
+
+.sectionA {
+}
+
+.superbox {
+	display: flex;
+}
+
+.sidebar {
+	flex: 1;
+	height: 300px;
+	padding: 5px;
+}
+
+.sect {
+	flex: 1;
+	height: 300px;
+}
+
+.article {
+	position: relative;
+	left: 10px;
+	height: 200px;
+	width: 95%;
+	color: #eee;
+	background-color: #999;
+}
+
+.headeriffic {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	width: 90%;
+}
+
+.para {
+	position: absolute;
+	bottom: 20px;
+	left: 5px;
+	width: 90%;
+}
